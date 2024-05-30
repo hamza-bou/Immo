@@ -1,0 +1,24 @@
+.navbar-link {
+  @apply text-gray-300 hover:bg-gray-800 hover:text-white rounded-md px-3 py-2 text-sm font-medium;
+}
+.navbar-link.active {
+  @apply bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium;
+}
+
+.navbar-link-mobile {
+  @apply text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium;
+}
+.navbar-link-mobile.active {
+  @apply bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium;
+}
+
+.notification-circle {
+  left: -5px;
+  top: -5px;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
